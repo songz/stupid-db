@@ -1,0 +1,27 @@
+{
+  "name": "stupid-db",
+  "version": "1.0.0",
+  "description": "Stupid DB that is stored on file. Simplest db you can imagine, no need to install anything",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/songz/stupid-db"
+  },
+  "keywords": [
+    "filedb",
+    "database",
+    "simple",
+    "database",
+    "file",
+    "database"
+  ],
+  "author": "Song Zheng <Song@Zheng.club> (http://songz.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/songz/stupid-db/issues"
+  },
+  "homepage": "https://github.com/songz/stupid-db"
+}
