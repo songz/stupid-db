@@ -1,6 +1,6 @@
 {
   "name": "stupid-db",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stupid DB that is stored on file. Simplest db you can imagine, no need to install anything",
   "main": "index.js",
   "scripts": {
