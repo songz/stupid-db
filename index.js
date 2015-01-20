@@ -1,12 +1,16 @@
 var fs = require('fs');
 
-var outputFilename = "./database/db.js";
+var outputFilename = __dirname + "/database/stupid-db.js";
 
 
 module.exports = {
   getData: function(cb) {
-    fs.readFile(outputFilename, function(err, data){
-      cb(JSON.parse(data));
+    fs.readFile(outputFilename, "utf-8", function(err, data){
+      if(data){
+        cb(JSON.parse(data));
+      }else{
+        cb({});
+      }
     });
   },
   saveData: function(data, onSuccess, onFailure){
@@ -19,3 +23,5 @@ module.exports = {
     }); 
   }
 };
+
+
